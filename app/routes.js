@@ -21,6 +21,7 @@ router.use('/', (req, res, next) => {
 });
 
 // Start folder specific routes
+router.use('/user-journey-iterations', require('./views/user-journey-iterations/_routes'));
 router.use('/admin-tool', require('./views/admin-tool/_routes'));
 router.use('/product-site', require('./views/product-site/_routes'));
 router.use('/v5', require('./views/v5/_routes'));
