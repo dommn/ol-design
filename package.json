@@ -7,6 +7,7 @@
   "dependencies": {
     "@govuk-prototype-kit/common-templates": "1.2.2",
     "govuk-frontend": "^4.5.0",
-    "govuk-prototype-kit": "^13.13.6"
+    "govuk-prototype-kit": "^13.13.6",
+    "nunjucks-date-filter": "^0.1.1"
   }
 }
